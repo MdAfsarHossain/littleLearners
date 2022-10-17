@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClassThreeBooks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFEFE"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/arrow_back"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:text="তৃতীয় শ্রেণির বই"
+            android:textSize="25sp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/class_three_bangle_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="15dp"
+                android:background="#f1c40f"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneBanglaImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_bangla" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneBanglaImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Bangla"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 82"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 7.88 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_english_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="15dp"
+                android:background="#f1c40f"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneEnglishImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_english" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneEnglishImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="English"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 70"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 5.35 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_math_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneMathImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_math" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneMathImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Math"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_science_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneScienceImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_science" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneScienceImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Science"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_bgs_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneBgsImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_bgs" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneBgsImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="BGS"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_islam_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneIslamImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_islam" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneIslamImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Islam"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_hindu_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneHinduImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_hindu" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneHinduImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Hindu"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_bouddha_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneBouddhaImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_bouddha" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneBouddhaImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Bouddha"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/class_three_christian_book"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f1c40f"
+                android:layout_marginBottom="35dp"
+                android:backgroundTint="#f1c40f">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/cOneChristianImage"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/class_three_christian" />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="150dp"
+                            android:layout_toRightOf="@+id/cOneChristianImage"
+                            android:background="#f1c40f"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Christian"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="45dp"
+                                android:gravity="center"
+                                android:text="Page: 106"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="Size: 11.6 MB"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

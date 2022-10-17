@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        //Image Slider
+        maven { url 'https://jitpack.io' }
+        //For 3rd Party Library
+        maven {
+            url ("https://jcenter.bintray.com")
+        }
+    }
+}
+rootProject.name = "MainActivity"
+include ':app'

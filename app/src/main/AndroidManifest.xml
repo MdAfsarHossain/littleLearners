@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mainactivity">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MainActivity"
+        tools:targetApi="31">
+        <activity
+            android:name=".RhymesSeven"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesSix"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesFive"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesFour"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesThree"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesTwo"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesOne"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraTen"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraNine"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraEight"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraSeven"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraSix"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraFive"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraFour"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraThree"
+            android:exported="false" />
+        <activity
+            android:name=".BenjonBorno"
+            android:exported="false" />
+        <activity
+            android:name=".AlphabetQuizFinalResult"
+            android:exported="false" />
+        <activity
+            android:name=".AlphabetQuizQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraOne"
+            android:exported="false" />
+        <activity
+            android:name=".SorBorno"
+            android:exported="false" />
+        <activity
+            android:name=".ClassZeroAmarBoi"
+            android:exported="false" />
+        <activity
+            android:name=".ClassZeroBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeChristianBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeBouddhaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourChristianBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourBouddhaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveChristianBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveBouddhaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ChoraList"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesList"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeHinduBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourHinduBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveHinduBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveIslamBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveBgsBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveScienceBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveMathBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveEnglishBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveBanglaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFiveBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourIslamBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourBgsBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourScienceBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourMathBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourEnglishBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourBanglaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassFourBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeIslamBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeBgsBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeScienceBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeMathBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeEnglishBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeBanglaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassThreeBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ClassTwoMathBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassTwoEnglishBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassTwoBanglaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassTwoBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ClassOneMathBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassOneEnglishBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassOneBanglaBook"
+            android:exported="false" />
+        <activity
+            android:name=".ClassOneBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Books"
+            android:exported="false" />
+        <activity
+            android:name=".Drawing"
+            android:exported="false" />
+        <activity
+            android:name=".English"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaBornomala"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
