@@ -102,8 +102,8 @@ public class RhymesList extends AppCompatActivity {
         rhymesEight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(RhymesList.this, RhymesEight.class);
-                //startActivity(intent);
+                Intent intent = new Intent(RhymesList.this, RhymesEight.class);
+                startActivity(intent);
             }
         });
 
@@ -112,8 +112,8 @@ public class RhymesList extends AppCompatActivity {
         rhymesNine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(RhymesList.this, RhymesNine.class);
-                //startActivity(intent);
+                Intent intent = new Intent(RhymesList.this, RhymesNine.class);
+                startActivity(intent);
             }
         });
 
@@ -122,8 +122,8 @@ public class RhymesList extends AppCompatActivity {
         rhymesTen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(RhymesList.this, RhymesTen.class);
-                //startActivity(intent);
+                Intent intent = new Intent(RhymesList.this, RhymesTen.class);
+                startActivity(intent);
             }
         });
 

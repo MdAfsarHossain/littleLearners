@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Food">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFEFE"
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:text="Foods"
+            android:textSize="25sp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    app:cardBackgroundColor="#2d2d2d"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    android:foreground="@drawable/effect1"
+                    android:clickable="true"
+                    android:onClick="burger">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            android:background="@drawable/burger"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BURGER"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    app:cardBackgroundColor="#2d2d2d"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    android:foreground="@drawable/effect1"
+                    android:clickable="true"
+                    android:onClick="pizza"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            android:background="@drawable/pizza"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PIZZA"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    app:cardBackgroundColor="#2d2d2d"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    android:foreground="@drawable/effect1"
+                    android:clickable="true"
+                    android:onClick="cake">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            android:background="@drawable/cake"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CAKE"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    app:cardBackgroundColor="#2d2d2d"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    android:foreground="@drawable/effect1"
+                    android:clickable="true"
+                    android:onClick="biryani"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            android:background="@drawable/biryani"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BIRYANI"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="50dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    app:cardBackgroundColor="#2d2d2d"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    android:foreground="@drawable/effect1"
+                    android:clickable="true"
+                    android:onClick="pasta">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            android:background="@drawable/pasta"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PASTA"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    app:cardBackgroundColor="#2d2d2d"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    android:foreground="@drawable/effect1"
+                    android:clickable="true"
+                    android:onClick="rice"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            android:background="@drawable/rice"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="RICE"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

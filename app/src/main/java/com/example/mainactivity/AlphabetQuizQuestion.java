@@ -26,11 +26,16 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Random;
+
 public class AlphabetQuizQuestion extends AppCompatActivity {
 
     Button buttonA, buttonB, buttonC, buttonD;
     TextView questionNumberTextShow, setTimer, timesUpText;
     ImageView questionImage;
+
+    Random random = new Random();
+    int randomNumber;
 
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -129,7 +134,8 @@ public class AlphabetQuizQuestion extends AppCompatActivity {
             timesUpText.setVisibility(View.INVISIBLE);
             questionImage.setVisibility(View.INVISIBLE);
 
-            if(questionNumber == (questionCount+1))
+//            if(questionNumber == (questionCount+1))
+            if(questionNumber == 11)
             {
                 //Toast.makeText(getApplicationContext(), "Correct Answer: " + correctAnswer, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(AlphabetQuizQuestion.this, AlphabetQuizFinalResult.class);
@@ -207,6 +213,9 @@ public class AlphabetQuizQuestion extends AppCompatActivity {
     //Start Quiz
     public void start()
     {
+
+//        randomNumber = random.nextInt(26);
+
         // Read from the database
         databaseReference.addValueEventListener(new ValueEventListener() {
             @SuppressLint("UseCompatLoadingForDrawables")
@@ -237,19 +246,20 @@ public class AlphabetQuizQuestion extends AppCompatActivity {
 
                 startTimer();
 
-                if(questionNumber <= questionCount)
+//                if(questionNumber <= questionCount)
+                if(questionNumber <= 10)
                 {
                     questionNumber++;
                 }
-                else
-                {
+//                else
+//                {
 //                    Toast.makeText(getApplicationContext(), "You Answered all question!", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), "Correct Answer: " + correctAnswer, Toast.LENGTH_SHORT).show();
-
+//                    Toast.makeText(getApplicationContext(), "Correct Answer: " + correctAnswer, Toast.LENGTH_SHORT).show();
+//
 //                    Toast.makeText(getApplicationContext(), "Total Question: " + questionCount, Toast.LENGTH_SHORT).show();
-                    //Intent intent = new Intent(Question.this, FinalResult.class);
-                    //startActivity(intent);
-                }
+//                    Intent intent = new Intent(Question.this, FinalResult.class);
+//                    startActivity(intent);
+//                }
             }
 
             @Override

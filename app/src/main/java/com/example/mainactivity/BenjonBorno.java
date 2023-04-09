@@ -32,6 +32,7 @@ public class BenjonBorno extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                stopPlayer();
                 BenjonBorno.super.onBackPressed();
             }
         });
@@ -50,9 +51,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno2(View view) {
@@ -65,9 +66,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno3(View view) {
@@ -80,9 +81,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno4(View view) {
@@ -95,9 +96,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno5(View view) {
@@ -110,9 +111,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno6(View view) {
@@ -125,9 +126,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno7(View view) {
@@ -140,9 +141,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno8(View view) {
@@ -155,9 +156,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno9(View view) {
@@ -170,9 +171,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno10(View view) {
@@ -185,9 +186,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno11(View view) {
@@ -200,9 +201,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno12(View view) {
@@ -215,9 +216,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno13(View view) {
@@ -230,9 +231,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno14(View view) {
@@ -245,9 +246,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno15(View view) {
@@ -260,9 +261,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno16(View view) {
@@ -275,9 +276,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno17(View view) {
@@ -290,9 +291,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno18(View view) {
@@ -305,9 +306,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno19(View view) {
@@ -320,9 +321,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno20(View view) {
@@ -335,9 +336,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno21(View view) {
@@ -350,9 +351,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno22(View view) {
@@ -365,9 +366,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno23(View view) {
@@ -380,9 +381,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno24(View view) {
@@ -395,9 +396,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno25(View view) {
@@ -410,9 +411,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno26(View view) {
@@ -425,9 +426,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno27(View view) {
@@ -440,9 +441,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno28(View view) {
@@ -455,9 +456,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno29(View view) {
@@ -470,9 +471,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno30(View view) {
@@ -485,9 +486,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno31(View view) {
@@ -500,9 +501,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno32(View view) {
@@ -515,9 +516,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno33(View view) {
@@ -530,9 +531,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno34(View view) {
@@ -545,9 +546,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno35(View view) {
@@ -560,9 +561,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno36(View view) {
@@ -575,9 +576,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno37(View view) {
@@ -590,9 +591,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno38(View view) {
@@ -605,9 +606,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void benjonBorno39(View view) {
@@ -620,9 +621,9 @@ public class BenjonBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
 

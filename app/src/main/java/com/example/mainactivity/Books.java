@@ -56,8 +56,8 @@ public class Books extends AppCompatActivity {
         classTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(Books.this, ClassTwoBooks.class);
-                //startActivity(intent);
+                Intent intent = new Intent(Books.this, ClassTwoBooks.class);
+                startActivity(intent);
             }
         });
 
@@ -66,8 +66,8 @@ public class Books extends AppCompatActivity {
         classThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(Books.this, ClassThreeBooks.class);
-                //startActivity(intent);
+                Intent intent = new Intent(Books.this, ClassThreeBooks.class);
+                startActivity(intent);
             }
         });
 
@@ -75,8 +75,8 @@ public class Books extends AppCompatActivity {
         classFour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(Books.this, ClassFourBooks.class);
-                //startActivity(intent);
+                Intent intent = new Intent(Books.this, ClassFourBooks.class);
+                startActivity(intent);
             }
         });
 
@@ -85,8 +85,8 @@ public class Books extends AppCompatActivity {
         classFive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(Books.this, ClassFiveBooks.class);
-                //startActivity(intent);
+                Intent intent = new Intent(Books.this, ClassFiveBooks.class);
+                startActivity(intent);
             }
         });
 

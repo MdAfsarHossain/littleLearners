@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private ImageSlider imageSlider;
-    CardView english, bangla, drawing, books, rhymes, chora, quiz;
+    CardView english, bangla, drawing, books, math, rhymes, chora, quiz, ongko, conversant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,10 @@ public class MainActivity extends AppCompatActivity {
         bangla = findViewById(R.id.bangla);
         books = findViewById(R.id.books);
         drawing = findViewById(R.id.drawing);
+        math = findViewById(R.id.math);
+        ongko = findViewById(R.id.ongko);
         rhymes = findViewById(R.id.rhymes);
+        conversant = findViewById(R.id.conversant);
         chora = findViewById(R.id.chora);
         quiz = findViewById(R.id.quiz);
 
@@ -67,12 +70,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Math On Click Listener
+        math.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Math.class);
+                startActivity(intent);
+            }
+        });
+
+        //Ongko On Click Listener
+        ongko.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Ongko.class);
+                startActivity(intent);
+            }
+        });
+
         //Books On Click Listener
         books.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MainActivity.this, Books.class);
-                //startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Books.class);
+                startActivity(intent);
             }
         });
 
@@ -80,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
         rhymes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MainActivity.this, RhymesList.class);
-                //startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, RhymesList.class);
+                startActivity(intent);
             }
         });
 
@@ -89,8 +110,17 @@ public class MainActivity extends AppCompatActivity {
         chora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MainActivity.this, ChoraList.class);
-                //startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, ChoraList.class);
+                startActivity(intent);
+            }
+        });
+
+        //Conversant On Click Listener
+        conversant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Conversant.class);
+                startActivity(intent);
             }
         });
 
@@ -98,8 +128,8 @@ public class MainActivity extends AppCompatActivity {
         drawing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MainActivity.this, Drawing.class);
-                //startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Drawing.class);
+                startActivity(intent);
             }
         });
 
@@ -107,8 +137,8 @@ public class MainActivity extends AppCompatActivity {
         quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MainActivity.this, Quiz.class);
-                //startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Quiz.class);
+                startActivity(intent);
             }
         });
 

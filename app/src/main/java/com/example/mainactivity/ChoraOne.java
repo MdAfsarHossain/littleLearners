@@ -33,6 +33,7 @@ public class ChoraOne extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                stopPlayer();
                 ChoraOne.super.onBackPressed();
             }
         });
@@ -55,7 +56,7 @@ public class ChoraOne extends AppCompatActivity {
             stopPlayer();
         }
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.a_for_apple);
+        mediaPlayer = MediaPlayer.create(this, R.raw.chora_one);
         mediaPlayer.start();
 
     }

@@ -32,6 +32,7 @@ public class SorBorno extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                stopPlayer();
                 SorBorno.super.onBackPressed();
             }
         });
@@ -47,9 +48,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno2(View view) {
@@ -61,9 +62,8 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
-
-        mediaPlayer.start();
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer.start();
     }
 
     public void shorborno3(View view) {
@@ -75,9 +75,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno4(View view) {
@@ -89,9 +89,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno5(View view) {
@@ -103,9 +103,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno6(View view) {
@@ -117,9 +117,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno7(View view) {
@@ -131,9 +131,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno8(View view) {
@@ -145,9 +145,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno9(View view) {
@@ -159,9 +159,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno10(View view) {
@@ -173,9 +173,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     public void shorborno11(View view) {
@@ -187,9 +187,9 @@ public class SorBorno extends AppCompatActivity {
             stopPlayer();
 
         }
-        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
+//        mediaPlayer = MediaPlayer.create(this, R.raw.g_for_girl);
 
-        mediaPlayer.start();
+//        mediaPlayer.start();
     }
 
     // Stop Player

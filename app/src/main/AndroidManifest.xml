@@ -17,6 +17,39 @@
         android:theme="@style/Theme.MainActivity"
         tools:targetApi="31">
         <activity
+            android:name=".Fish"
+            android:exported="false" />
+        <activity
+            android:name=".Vegetables"
+            android:exported="false" />
+        <activity
+            android:name=".Food"
+            android:exported="false" />
+        <activity
+            android:name=".Fruits"
+            android:exported="false" />
+        <activity
+            android:name=".Animals"
+            android:exported="false" />
+        <activity
+            android:name=".Conversant"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesTen"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesNine"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesEight"
+            android:exported="false" />
+        <activity
+            android:name=".Ongko"
+            android:exported="false" />
+        <activity
+            android:name=".Math"
+            android:exported="false" />
+        <activity
             android:name=".RhymesSeven"
             android:exported="false" />
         <activity

@@ -27,6 +27,7 @@ public class ChoraTwo extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                stopPlayer();
                 ChoraTwo.super.onBackPressed();
             }
         });
@@ -49,7 +50,7 @@ public class ChoraTwo extends AppCompatActivity {
             stopPlayer();
         }
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.c_for_cap);
+        mediaPlayer = MediaPlayer.create(this, R.raw.chora_two);
         mediaPlayer.start();
 
     }

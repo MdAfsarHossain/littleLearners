@@ -44,8 +44,8 @@ public class AlphabetQuizFinalResult extends AppCompatActivity {
         wrongAnswer = Integer.parseInt(getIntent().getStringExtra("wrongAnswer"));
         totalQuestion = Integer.parseInt(getIntent().getStringExtra("totalQuestion"));
 
-        emptyQuestion = totalQuestion - correctAnswer - wrongAnswer;
-        successRatePercentage = (correctAnswer * 100) / totalQuestion;
+        emptyQuestion = 10 - correctAnswer - wrongAnswer;
+        successRatePercentage = (correctAnswer * 100) / 10;
 
         //Set On Click Listener
         correctAns.setText("Total Correct Answer: " + correctAnswer);
@@ -74,6 +74,7 @@ public class AlphabetQuizFinalResult extends AppCompatActivity {
         } else {
             Intent intent = new Intent(AlphabetQuizFinalResult.this, AlphabetQuizQuestion.class);
             startActivity(intent);
+            finish();
         }
     }
 
